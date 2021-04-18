@@ -1,0 +1,70 @@
+.header {
+  position: absolute;
+  width: 717px;
+  height: 174px;
+  left: 165px;
+  top: 151px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.paragraph {
+  position: absolute;
+  width: 545px;
+  height: 100px;
+  left: 165px;
+  top: 361px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #e8e8e8;
+}
+
+.button {
+  position: absolute;
+  width: 177px;
+  height: 40px;
+  left: 165px;
+  top: 508px;
+
+  background: white;
+  border-radius: 10px;
+}
+
+.text {
+  position: absolute;
+  width: 85px;
+  height: 19px;
+  left: 50px;
+  top: 9px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: red;
+}
+
+.picture1 {
+  position: absolute;
+  width: 515px;
+  height: 640px;
+  left: 925px;
+  top: 151px;
+}

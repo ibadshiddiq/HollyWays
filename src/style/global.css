@@ -1,0 +1,675 @@
+:root {
+  --primary-color: #c42424;
+}
+
+.my-title {
+  color: blue;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+  height: 100px;
+  padding: 0 7.7%;
+}
+
+.icon {
+  height: 45px;
+  width: 65px;
+}
+
+.red-box {
+  position: absolute;
+  width: 1440px;
+  height: 703px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: #c32424;
+}
+.information1 {
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: violet;
+}
+
+.information2 {
+  font-family: Product Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.loginbtn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1120px;
+  top: 19px;
+  background: #c32424;
+  border-color: #c32424;
+  border-right: var(--primary-color);
+  border-bottom: var(--primary-color);
+}
+
+.login {
+  position: absolute;
+  width: 37px;
+  height: 19px;
+  left: 30px;
+  top: 8px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.registerbtn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1240px;
+  top: 19px;
+
+  background: #e8e8e8;
+  border-radius: 10px;
+}
+.register {
+  position: absolute;
+  width: 56px;
+  height: 19px;
+  left: 23px;
+  top: 8px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #c32424;
+}
+.card1 {
+  position: absolute;
+  width: 330px;
+  height: 466px;
+  left: 197px;
+  top: 1438px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+  height: 466px;
+  left: 197px;
+  top: 1438px;
+}
+
+.row3 {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 170px;
+  top: 415px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.textdonate {
+  position: absolute;
+  width: 49px;
+  height: 19px;
+  left: 26px;
+  top: 3px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.pictures {
+  position: absolute;
+  width: 515px;
+  height: 640px;
+  left: 0px;
+  top: 584px;
+}
+
+.titlefund {
+  position: absolute;
+  width: 275px;
+  height: 44px;
+  left: 147px;
+  top: 164px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: black;
+}
+
+.title {
+  position: absolute;
+  width: 1083px;
+  height: 50px;
+  left: 147px;
+  top: 279px;
+}
+
+.button1 {
+  position: absolute;
+  width: 173px;
+  height: 35px;
+  left: 148px;
+  top: 353px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+.button11 {
+  position: absolute;
+  width: 154.46px;
+  height: 19px;
+  left: 9px;
+  top: 7px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.goal {
+  position: absolute;
+  width: 1083px;
+  height: 50px;
+  left: 147px;
+  top: 412px;
+}
+
+.description {
+  position: absolute;
+  width: 1083px;
+  height: 237px;
+  left: 147px;
+  top: 486px;
+}
+
+.button2 {
+  position: absolute;
+  width: 412px;
+  height: 45px;
+  left: 818px;
+  top: 650px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.button22 {
+  position: absolute;
+  width: 151px;
+  height: 22px;
+  left: 130px;
+  top: 10px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.Raise-Fund-Position {
+  position: absolute;
+  width: 237px;
+  height: 44px;
+  left: 197px;
+  top: 164px;
+}
+.Raise-Fund-Font {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #000000;
+}
+.makeFundBtn {
+  position: absolute;
+  width: 140px;
+  height: 35px;
+  left: 1040px;
+  top: 169px;
+  color: white;
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.rowrow {
+  position: absolute;
+  width: 330px;
+  height: 466px;
+  left: 187px;
+  top: 250px;
+}
+
+.picture60 {
+  position: absolute;
+  width: 550px;
+  height: 500px;
+  left: 191px;
+  top: 164px;
+}
+
+.textdetaildonate {
+  position: absolute;
+  width: 412px;
+  height: 88px;
+  left: 825px;
+  top: 164px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #000000;
+}
+
+.textdetaildonate1 {
+  position: absolute;
+  width: 128px;
+  height: 22px;
+  left: 825px;
+  top: 297px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+
+  color: #c32424;
+}
+
+.textdetaildonate2 {
+  position: absolute;
+  width: 88px;
+  height: 17px;
+  left: 961px;
+  top: 302px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  color: #616161;
+}
+
+.textdetaildonate3 {
+  position: absolute;
+  width: 141px;
+  height: 22px;
+  left: 1057px;
+  top: 297px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #616161;
+}
+.textdetaildonate4 {
+  position: absolute;
+  width: 412px;
+  height: 153px;
+  left: 825px;
+  top: 414px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  color: #616161;
+}
+
+.textdetaildonate6 {
+  position: absolute;
+  width: 373px;
+  height: 5px;
+  left: 825px;
+  top: 337px;
+}
+
+.buttondetaildonate {
+  position: absolute;
+  width: 412px;
+  height: 45px;
+  left: 825px;
+  top: 607px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.donate5 {
+  position: absolute;
+  width: 63px;
+  height: 25px;
+  left: 180px;
+  top: 9px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.textdetaildonate5 {
+  position: absolute;
+  width: 320px;
+  height: 44px;
+  left: 191px;
+  top: 725px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+/* .listdonate {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 798px;
+
+  background: #ffffff;
+} */
+.total {
+  color: #974a4a;
+}
+
+.rowdetaildonate {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 798px;
+
+  background: #ffffff;
+}
+
+.rowdetaildonate1 {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 950px;
+
+  background: #ffffff;
+}
+
+.rowdetaildonate2 {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 1100px;
+
+  background: #ffffff;
+}
+
+.colordetaildonate {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  color: #c32424;
+}
+
+.loadmodetext {
+  position: absolute;
+  width: 93px;
+  height: 25px;
+  left: 674px;
+  top: 1250px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #616161;
+}
+.textdetaildonate7 {
+  position: absolute;
+  width: 607px;
+  height: 44px;
+  left: 191px;
+  top: 1320px;
+
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.rowdetaildonate3 {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 1400px;
+
+  background: #ffffff;
+}
+
+.rowdetaildonate4 {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 1550px;
+
+  background: #ffffff;
+}
+
+.rowdetaildonate5 {
+  position: absolute;
+  width: 1045px;
+  height: 101px;
+  left: 191px;
+  top: 1700px;
+
+  background: #ffffff;
+}
+
+.loadmodetext2 {
+  position: absolute;
+  width: 93px;
+  height: 25px;
+  left: 674px;
+  top: 1850px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #616161;
+}
+
+.buttonviewfund {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 900px;
+  top: 45px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.textbuttonviewfund {
+  position: absolute;
+  width: 34px;
+  height: 19px;
+  left: 27px;
+  top: 4px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.buttonviewfund2 {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 900px;
+  top: 45px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.textbuttonviewfund2 {
+  position: absolute;
+  width: 34px;
+  height: 19px;
+  left: 27px;
+  top: 4px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
+
+.buttonviewfund3 {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 900px;
+  top: 45px;
+
+  background: #c32424;
+  border-radius: 10px;
+}
+
+.textbuttonviewfund3 {
+  position: absolute;
+  width: 34px;
+  height: 19px;
+  left: 27px;
+  top: 4px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+}
